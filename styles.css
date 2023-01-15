@@ -3,21 +3,36 @@ html {
 }
 
 .titlecard {
-    color: white;
-    font-size: 20px;
-    text-align: center;
     background-color: black;
     outline: 2px solid;
 }
 
-.subtext {
-    font-size: 14px;
-    position: relative;
-    bottom: 11px;
+h1 {
+    color: white; 
+    font-size: 44px;  
+    text-align: center; 
 }
 
-ul li {
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subtext {
+    color: white; 
+    font-size: 15px;
+    position: relative;
+    bottom: 12px;
+    text-align: center; 
+}
+
+ul,
+ol {
     background-color: rgb(194, 189, 189);
+    width: 50%;
+}
+
+li {
     color: rgb(34, 34, 34);
-    width: fit-content;
 }
