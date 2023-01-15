@@ -2,15 +2,34 @@ html {
     background-color: rgb(34, 34, 34);
 }
 
-.titlecard {
+.titlecard,
+.sectioncard {
     background-color: black;
-    outline: 2px solid;
+    outline: 2px solid white;
+}
+
+.sectioncard {
+    width: 30%;
+}
+
+h1,
+h2,
+h3 {
+    color: white; 
+    text-align: center; 
 }
 
 h1 {
-    color: white; 
     font-size: 44px;  
-    text-align: center; 
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 12px;
+
 }
 
 img {
@@ -30,7 +49,8 @@ img {
 ul,
 ol {
     background-color: rgb(194, 189, 189);
-    width: 50%;
+    outline: solid 2px black;
+    width: auto;
 }
 
 li {
