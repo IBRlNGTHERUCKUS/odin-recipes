@@ -15,6 +15,7 @@ html {
 h1,
 h2,
 h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white; 
     text-align: center; 
 }
@@ -55,4 +56,5 @@ ol {
 
 li {
     color: rgb(34, 34, 34);
+    font-family: 'Courier New', Courier, monospace;
 }
