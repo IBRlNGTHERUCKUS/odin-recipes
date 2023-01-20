@@ -2,6 +2,12 @@ html {
     background-color: rgb(34, 34, 34);
 }
 
+.recipebox {
+    background-color:rgb(194, 189, 189);
+    margin: 0 32px;
+    padding: 10px 32px;
+}
+
 .titlecard,
 .sectioncard {
     background-color: black;
@@ -9,15 +15,17 @@ html {
 }
 
 .sectioncard {
-    width: 30%;
+    width: 20%;
+    padding: .2rem 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-h1,
-h2,
-h3 {
+h1, h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white; 
     text-align: center; 
+  
 }
 
 h1 {
@@ -29,7 +37,7 @@ h2 {
 }
 
 h3 {
-    font-size: 12px;
+    font-size: 16px;
 
 }
 
@@ -47,14 +55,7 @@ img {
     text-align: center; 
 }
 
-ul,
-ol {
-    background-color: rgb(194, 189, 189);
-    outline: solid 2px black;
-    width: auto;
-}
-
-li {
+li, h3 {
     color: rgb(34, 34, 34);
     font-family: 'Courier New', Courier, monospace;
 }
