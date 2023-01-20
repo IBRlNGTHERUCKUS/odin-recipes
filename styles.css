@@ -15,8 +15,8 @@ html {
 }
 
 .sectioncard {
-    width: 20%;
-    padding: .2rem 0;
+    width: fit-content;
+    padding: .2rem 15px;
     margin: 0;
     box-sizing: border-box;
 }
